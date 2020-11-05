@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+
+<group android:checkableBehavior="single">
+
+    <item android:id="@+id/listaAp"
+        android:icon="@drawable/ic_apartment"
+        android:title="@string/apartments_list"
+        />
+    <item android:id="@+id/detaliiClienti"
+        android:icon="@drawable/ic_client"
+        android:title="@string/detalii_clienti"/>
+    <item android:id="@+id/tranzactii_clienti"
+        android:icon="@drawable/transaction"
+        android:title="@string/contracte_clienti"/>
+    <item android:id="@+id/profit"
+        android:icon="@drawable/ic_profit"
+        android:title="@string/profit"/>
+    <item android:id="@+id/cheltuieli"
+        android:icon="@drawable/money"
+        android:title="@string/cheltuieli"/>
+    <item android:id="@+id/logOut"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/iesire"/>
+
+
+</group>
+</menu>

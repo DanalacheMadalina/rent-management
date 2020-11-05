@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_an2017"
+        android:layout_width="116dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="39dp"
+        android:text="@string/anul_2017"
+        app:layout_constraintBottom_toTopOf="@+id/plataLV"
+        app:layout_constraintEnd_toStartOf="@+id/btn_an2018"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tranzactii" />
+
+    <Button
+        android:id="@+id/btn_an2018"
+        android:layout_width="116dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="39dp"
+        android:text="@string/anul_2018"
+        app:layout_constraintBottom_toTopOf="@+id/plataLV"
+        app:layout_constraintEnd_toStartOf="@+id/btn_an2019"
+        app:layout_constraintStart_toEndOf="@+id/btn_an2017"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tranzactii" />
+
+    <Button
+        android:id="@+id/btn_an2019"
+        android:layout_width="116dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="39dp"
+        android:text="@string/anul_2019"
+        app:layout_constraintBottom_toTopOf="@+id/plataLV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_an2018"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tranzactii" />
+
+    <ListView
+        android:id="@+id/plataLV"
+        android:layout_width="399dp"
+        android:layout_height="422dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_an2018" />
+
+    <TextView
+        android:id="@+id/tv_tranzactii"
+        android:layout_width="348dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:text="@string/contracte_cu_clientii"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_an2018"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

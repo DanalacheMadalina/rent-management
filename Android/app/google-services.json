@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "18133508542",
+    "firebase_url": "https://listacheltuieli.firebaseio.com",
+    "project_id": "listacheltuieli",
+    "storage_bucket": "listacheltuieli.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18133508542:android:47191da6cbc52491e599ef",
+        "android_client_info": {
+          "package_name": "eu.ase.proiectgestiune"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18133508542-h8h9agnh1vm2es0477h4v10kmca050ec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eu.ase.proiectgestiune",
+            "certificate_hash": "87afef9e5fc54cebf5cd3a697a21ac490c353e3d"
+          }
+        },
+        {
+          "client_id": "18133508542-timm02hnmgsolrkt7akmr9k5grkjnbor.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbBTEHTs_n8a-DWs3cq0PZ5UikoNmsMBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18133508542-timm02hnmgsolrkt7akmr9k5grkjnbor.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">ProiectGestiune</string>
+
+    <string name="open">Open drawer</string>
+    <string name="close">Close drawer</string>
+    <string name="Indisponibil">indisponibil</string>
+    <string name="disponibil">disponibil</string>
+    <string name="semidecomandat">Semidecomandat</string>
+    <string name="Decomandat">Decomandat</string>
+    <string name="Nedecomandat">Nedecomandat</string>
+    <string name="welcome_messages">Bun venit, %1$s! </string>
+    <string name="profitFirma">In prezent, firma are un profit de:</string>
+    <string name="nrApartamenteInchiriate">Numarul apartamentelor inchiriate:</string>
+    <string-array name="tip_apartament">
+        <item>garsoniera</item>
+        <item>apartament cu 2 camere</item>
+        <item>apartament cu 3 camere</item>
+        <item>mansarda</item>
+    </string-array>
+    <string name="title_activity_vizualizare_map">Map</string>
+    <string name="delete_message">Stergem datele...</string>
+    <string name="delete_message_fail">Nu sunt date de sters</string>
+    <string name="wrong_location_message">Locatia este gresita!</string>
+    <string name="wrong_surface">Suprafata este scris gresit!</string>
+    <string name="wrong_year">Anul este scris gresit!</string>
+    <string name="wrong_price">Pretul este gresit!</string>
+    <string name="wrong_password">Nu ati introdus  parola corect!</string>
+    <string name="wrong_username">Nume de administrator gresit!</string>
+    <string name="nrtotal">Numarul total de apartamente de tip</string>
+    <string name="wrong_description">Nu ati introdus o descriere adecvata!</string>
+    <string name="wrong_suma">Nu ati introdus o suma corecta!</string>
+    <string name="wrong_date">Data nu este corecta</string>
+    <string name="welcome">Bun venit,</string>
+    <string name="add_ch">Adauga o cheltuiala!</string>
+    <string name="add_description">Trebuie sa introduci o descriere</string>
+    <string name="apartments_list">Lista Apartamente</string>
+    <string name="detalii_clienti">Detalii Clienti</string>
+    <string name="contracte_clienti">Contracte Clienti</string>
+    <string name="cheltuieli">Cheltuieli</string>
+    <string name="profit">Profit</string>
+    <string name="iesire">Iesire</string>
+    <string name="text_cheltuieli">Sectiune unde putem avea o evidenta a cheltuielilor aparute precum:</string>
+    <string name="tip_cheltuiala1">intretinere apartamente</string>
+    <string name="tip_chetuaiala2">cheltuieli ale firmei</string>
+    <string name="tip_cheltuiala3">cheltuieli neprevazute/reparatii</string>
+    <string name="remember_me">Tine-ma minte</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="save">Salveaza</string>
+    <string name="structura_apartamentului">Structura Apartamentului</string>
+    <string name="adresa_apartamentului">Adresa Apartamentului</string>
+    <string name="anul_infiintarii_blocului">Anul infiintarii blocului</string>
+    <string name="suprafata">Suprafata(mp)</string>
+    <string name="pret_chirie">Pret Chirie(euro)</string>
+    <string name="tipul_apartamentului">Tipul Apartamentului</string>
+    <string name="anul_2017">Anul 2017</string>
+    <string name="anul_2018">Anul 2018</string>
+    <string name="anul_2019">Anul 2019</string>
+    <string name="contracte_cu_clientii">Contracte cu clientii</string>
+    <string name="numele_clientului">Numele Clientului</string>
+    <string name="numar_telefon">Numar telefon</string>
+    <string name="cod_numeric_personal">Cod Numeric Personal</string>
+    <string name="unitate_masura">euro/luna</string>
+    <string name="cifre">cifre</string>
+    <string name="btn_genereaza">Afla numarul total!</string>
+    <string name="save_file">salveazaFisier</string>
+    <string name="read_file">citesteFisier</string>
+    <string name="insert_apartament_text">Introduceti tipul de apartament dorit(mansarda/garsoniera/apartament cu 2 camere/3camere):</string>
+    <string name="result_read">Rezultat Citire</string>
+    <string name="pret">pret</string>
+    <string name="suprafata_fara_mp">suprafata</string>
+    <string name="apartamente_indisponibile">Apartamente Indisponibile</string>
+    <string name="adauga">Adauga un apartament nou!</string>
+    <string name="apartamente_libere">Apartamente Libere</string>
+    <string name="adauga_cheltuieli">Adauga Cheltuieli</string>
+    <string name="afiseaza_lista_de_cheltuieli">Afiseaza Lista de Cheltuieli</string>
+    <string name="disponibilitate">disponibilitate</string>
+    <string name="locatia">locatia</string>
+    <string name="mp">mp</string>
+    <string name="nume_client">Nume Client</string>
+    <string name="numar_luni_contract">Numar Luni Contract</string>
+    <string name="numar_bloc">Numar Bloc</string>
+    <string name="scara_bloc">Scara Bloc</string>
+    <string name="numar_apartament">Numar Apartament</string>
+    <string name="data_publicarii">Data publicarii</string>
+    <string name="cost">Cost</string>
+    <string name="detalii_cheltuiala">Detalii cheltuiala</string>
+    <string name="denumire_agentie">Agentia imobiliara RoMax</string>
+    <string name="delete_all">Delete all</string>
+    <string name="connection_succesfully">Conectare cu succes</string>
+
+
+</resources>

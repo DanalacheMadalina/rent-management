@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/detalii_clienti">
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/dc_pozaclient"
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="126dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nume_client_tw"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="center"
+                android:text="@string/numele_clientului"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/tw_numarTelefon"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="@string/numar_telefon"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/tw_cnp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="@string/cod_numeric_personal"
+                android:textColor="@color/colorBlack" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="top"
+
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/dc_numeClient"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:hint="@string/numele_clientului"
+                />
+
+            <TextView
+                android:id="@+id/dc_numarTelefon"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:hint="@string/numar_telefon" />
+            <TextView
+                android:id="@+id/dc_cnp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:hint="@string/cod_numeric_personal" />
+        </LinearLayout>
+
+
+</LinearLayout>
+</LinearLayout>
+

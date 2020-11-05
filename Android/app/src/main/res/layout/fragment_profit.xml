@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profitAnual"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bun.fragment.Profit">
+
+    <TextView
+        android:id="@+id/calcul1"
+        android:layout_width="113dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center"
+        android:text="@string/profit"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/profit_euro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profit_prezent" />
+
+   <TextView
+       android:id="@+id/profit_prezent"
+       android:layout_width="392dp"
+       android:layout_height="45dp"
+       android:layout_marginStart="16dp"
+       android:layout_marginLeft="16dp"
+       android:layout_marginEnd="3dp"
+       android:layout_marginRight="3dp"
+       android:text="@string/profitFirma"
+       android:textSize="25dp"
+       android:textColor="@color/colorBlack"
+       app:layout_constraintBottom_toTopOf="@+id/calcul1"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent" />
+
+   <TextView
+     android:id="@+id/profit_euro"
+     android:layout_width="113dp"
+     android:layout_height="36dp"
+     android:layout_marginTop="24dp"
+     android:layout_marginEnd="2dp"
+     android:layout_marginRight="2dp"
+     android:text="@string/unitate_masura"
+       android:textColor="@color/colorBlack"
+       android:textSize="25dp"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.642"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/profit_prezent" />
+
+   <TextView
+       android:id="@+id/nrApr"
+       android:layout_width="238dp"
+       android:layout_height="40dp"
+       android:layout_marginStart="16dp"
+       android:layout_marginLeft="16dp"
+       android:layout_marginTop="23dp"
+       android:layout_marginEnd="19dp"
+       android:layout_marginRight="19dp"
+       android:text="@string/nrApartamenteInchiriate"
+       android:textAlignment="center"
+       android:textSize="15dp"
+       app:layout_constraintEnd_toStartOf="@+id/nrApCifre"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/profit_tip_ap" />
+
+   <TextView
+       android:id="@+id/nrApCifre"
+       android:layout_width="92dp"
+       android:layout_height="37dp"
+       android:layout_marginStart="10dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="23dp"
+       android:layout_marginEnd="56dp"
+       android:layout_marginRight="56dp"
+       android:text="@string/cifre"
+       android:textSize="15dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toEndOf="@+id/nrApr"
+       app:layout_constraintTop_toBottomOf="@+id/calculeaza" />
+
+   <AutoCompleteTextView
+       android:id="@+id/profit_tip_ap"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="16dp"
+       android:layout_marginEnd="188dp"
+       android:layout_marginRight="188dp"
+       android:ems="10"
+       android:inputType="textNoSuggestions"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+   <Button
+       android:id="@+id/calculeaza"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="24dp"
+       android:layout_marginLeft="24dp"
+       android:layout_marginTop="12dp"
+       android:text="@string/btn_genereaza"
+       android:textSize="10dp"
+       app:layout_constraintStart_toEndOf="@+id/profit_tip_ap"
+       app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btn_salveaza_raport"
+        android:layout_width="392dp"
+        android:layout_height="40dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/save_file"
+        app:layout_constraintBottom_toTopOf="@+id/btn_citeste_raport"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nrApr" />
+
+    <Button
+        android:id="@+id/btn_citeste_raport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/read_file"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_salveaza_raport" />
+
+  <TextView
+       android:id="@+id/textView"
+       android:layout_width="354dp"
+       android:layout_height="44dp"
+       android:layout_marginStart="16dp"
+       android:layout_marginLeft="16dp"
+       android:layout_marginTop="32dp"
+       android:text="@string/insert_apartament_text"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/calcul1"
+      android:textColor="@color/colorBlack"
+      />
+
+   <TextView
+       android:id="@+id/tw_rezultat"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="19dp"
+       android:text="@string/result_read"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/btn_citeste_raport" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

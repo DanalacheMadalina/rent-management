@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:background="@color/colorBrightBlue">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="100dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/denumire_agentie"
+        android:gravity="center"
+        android:theme="@style/navBar"/>
+
+</LinearLayout>
